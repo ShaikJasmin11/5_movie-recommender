@@ -1,28 +1,5 @@
-# ✅ Ignore big data files
-data/ratings.csv
-data/movies.csv
-
-# ✅ Ignore model artifacts
-models/*.pkl
-
-# ✅ Python cache and logs
-__pycache__/
-*.py[cod]
-*.log
-
-# ✅ Streamlit cache and junk
-.streamlit/
-*.db
-*.toml
-
-# ✅ System files
-.DS_Store
-Thumbs.db
-
-# ✅ VS Code junk
-.vscode/
-.env
-*.env
-
-# ✅ IPython and Jupyter extras
-*.ipynb_checkpoints/
+# .gitignore
+data/
+models/
+*.pkl
+*.csv
